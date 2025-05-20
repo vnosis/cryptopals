@@ -38,7 +38,7 @@ private:
 public:
     //Constructor/Desctuctor
     AES_128_ECB();
-    ~AES_128_ECB();
+    ~AES_128_ECB() = default;
 
     //Main Functions for AES
     void InverseMixColumn(); 

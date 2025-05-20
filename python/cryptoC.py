@@ -34,6 +34,12 @@ letter_frequency = {'e':11,
                     'q':0.1}
 
 
+def repXor(sArray):
+    ice = "ICE"
+    for i in sArray:
+        x = int(s)
+
+
 def xorCipher(hex):
     fscore = 0
     score = 0 
@@ -91,6 +97,7 @@ def main():
     xorHexString = '1b37373331363f78151b7f2b783431333d78397828372d363c78373e783a393b3736'
     s1c3 = xorCipher(xorHexString)
     print(s1c3)
+    repXor("Burning 'em, if you aint quick and nimble I go crazy when I hear a cymbal")
 
 if __name__ == "__main__":
     main()
