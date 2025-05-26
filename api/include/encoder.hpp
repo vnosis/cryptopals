@@ -7,8 +7,8 @@ private:
 
 
 public:
-    virtual void Encrypt() = 0;
-    virtual void Decrypt() = 0;
+    virtual void Encrypt(std::string&) = 0;
+    virtual void Decrypt(std::string&) = 0;
     virtual std::string getEncryption() = 0; 
     virtual std::string getDecryption() = 0;
 };
